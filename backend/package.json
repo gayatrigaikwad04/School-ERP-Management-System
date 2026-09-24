@@ -1,0 +1,42 @@
+{
+  "name": "schoolerp-backend",
+  "version": "1.0.0",
+  "description": "SchoolERP Admin Management Portal — Express.js REST API Backend",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint src/ --ext .js",
+    "test": "jest --passWithNoTests"
+  },
+  "keywords": [
+    "schoolerp",
+    "school-management",
+    "express",
+    "rest-api",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.4.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
